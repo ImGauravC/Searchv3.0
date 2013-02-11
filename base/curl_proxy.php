@@ -11,7 +11,7 @@
         curl_setopt($ch, CURLOPT_PROXYPORT, 80);
         curl_setopt($ch, CURLOPT_PROXYTYPE, 'HTTP');
         curl_setopt($ch, CURLOPT_PROXY, 'netmon.iitb.ac.in');
-        curl_setopt($ch, CURLOPT_PROXYUSERPWD, "gaurav_chauhan:g.force");		
+        curl_setopt($ch, CURLOPT_PROXYUSERPWD, "<user>:<pass>");		
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         
         $temp = curl_exec ($ch);
